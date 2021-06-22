@@ -1,0 +1,130 @@
+.footer {
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.box-reseau {
+  height: 80px;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.imgfooter {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.copyright {
+  margin: 4px 0 10px 0;
+  color: white;
+  font-size: 16px;
+}
+
+.logoFb {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.logoFb:hover {
+  transform: scale(1.1);
+}
+
+.logoInsta {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.logoInsta:hover {
+  transform: scale(1.1);
+}
+
+.logoTwitter {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.logoTwitter:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+  .imgfooter {
+    margin-left: 30px;
+    margin-right: 0;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+  .logoFb {
+    width: 35px;
+    height: auto;
+  }
+  .logoInsta {
+    width: 35px;
+    height: auto;
+  }
+  .logoTwitter {
+    width: 35px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 380px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+  }
+
+  .box-reseau {
+    margin: 0 10px 0 10px;
+  }
+
+  .imgfooter {
+    margin-left: 0px;
+    width: 100px;
+    height: auto;
+  }
+
+  .copyright {
+    font-size: 10px;
+    margin: 10px 0 5px 0;
+  }
+
+  .logoInsta {
+    width: 30px;
+    height: auto;
+  }
+  .logoTwitter {
+    width: 30px;
+    height: auto;
+  }
+
+  .logoFb {
+    width: 30px;
+    height: auto;
+  }
+}

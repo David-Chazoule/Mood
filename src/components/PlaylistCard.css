@@ -1,0 +1,226 @@
+.console {
+  width: 330px;
+  height: 290px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 70px;
+  background-color: black;
+  border: 2px solid silver;
+  border-radius: 20px;
+}
+
+.txt-describe {
+  width: 200px;
+  height: 128px;
+  text-align: left;
+  margin-left: 10px;
+  color: white;
+  background-color: black;
+  margin-right: 12px;
+}
+
+.describe-playlist .txt-describe {
+  display: inline-block;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+}
+
+.playlist-spotify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.title-playlist {
+  font-size: 20px;
+  color: white;
+}
+
+.playlist-spotify .cardPlaylist-img {
+  width: 120px;
+  height: auto;
+  border: 1px solid white;
+  margin-left: 5px;
+}
+
+.btn-spotify {
+  margin: 30px 15px;
+}
+
+.link-spotify {
+  background-color: #1db954;
+  border-radius: 500px;
+  color: white;
+  font-size: 15px;
+  border: #1db954;
+  width: 140px;
+  height: auto;
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.link-spotify:hover {
+  background-color: #029128;
+}
+
+.link-spotify .spot {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.logo-spotify {
+  width: 14px;
+  height: auto;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .console {
+    margin-top: 0px;
+    height: 150px;
+    width: 174px;
+    margin-bottom: 6px;
+  }
+
+  .playlist-spotify .txt-describe {
+    font-size: 8.2px;
+  }
+
+  .txt-describe {
+    height: 50px;
+    width: 140px;
+    margin: 6px 0px 0px 0px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .playlist-spotify .cardPlaylist-img {
+    margin-top: 7px;
+    width: 74px;
+  }
+  .title-playlist {
+    font-size: 11px;
+    margin: 0;
+  }
+
+  .describe-playlist {
+    background-color: black;
+    width: 166px;
+    height: 290px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+  .link-spotify {
+    width: 70px;
+    height: 17px;
+    font-size: 7px;
+  }
+
+  .logo-spotify {
+    width: 8px;
+    margin: 2px;
+  }
+
+  .btn-spotify {
+    margin-top: 128px;
+    height: 30px;
+  }
+  .playlist-spotify {
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .console {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .playlist-spotify .txt-describe {
+    font-size: 9px;
+    height: 20px;
+    background-color: white;
+    text-align: start;
+    color: black;
+  }
+
+  .txt-describe {
+    height: 80px;
+    margin-bottom: 0;
+    margin-top: 6;
+    width: 185px;
+    margin-left: 8px;
+  }
+
+  .playlist-spotify .cardPlaylist-img {
+    width: 65px;
+    margin-bottom: 0px;
+    margin-top: 55px;
+    margin-left: 0;
+    border: 1px solid black;
+  }
+  .title-playlist {
+    font-size: 12px;
+    margin: 3px;
+    color: black;
+  }
+
+  .describe-playlist {
+    background-color: white;
+    width: 267.6px;
+    height: 205px;
+    margin-top: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-right: 0;
+  }
+
+  .link-spotify {
+    width: 100px;
+    margin-top: 68px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    height: 17px;
+    cursor: pointer;
+  }
+
+  .logo-spotify {
+    width: 8px;
+ 
+  }
+
+  .btn-spotify {
+    margin: 0px;
+    margin-top: 70px;
+    height: 30px;
+  }
+  .playlist-spotify {
+    align-items: center;
+    flex-direction: row;
+    height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .menu .console-card {
+    margin-top: 1px;
+  }
+}

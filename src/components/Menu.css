@@ -1,0 +1,176 @@
+.Article-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0;
+  width: 100%;
+  cursor: pointer;
+  background-color: black;
+}
+
+.Article-card .Articlecard-img {
+  width: 280px;
+  height: 380px;
+  padding: 0;
+  border: 1px solid white;
+  filter: brightness(90%);
+}
+
+.Article-card .Articlecard-img:hover {
+  border: 1px solid gold;
+  filter: brightness(50%);
+}
+
+.Article-card .title {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.btn-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 80px;
+}
+
+.btn-form {
+  width: 150px;
+  height: 28px;
+  margin: 3px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.btn-form:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn-menu {
+  height: 30px;
+}
+
+.console-card {
+  display: flex;
+  width: 100%;
+  height: 230px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.ligne {
+  width: 10px;
+  height: 2px;
+  border: 1px solid black;
+  border-radius: 50px;
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    margin-bottom: 260px;
+  }
+  .Article-card {
+    width: 180px;
+    margin-bottom: 2px;
+  }
+
+  .Article-card .Articlecard-img {
+    width: 180px;
+    height: 200px;
+  }
+
+  .Article-card h1 {
+    font-size: 15px;
+  }
+  .btn-form {
+    width: 85px;
+    height: 22px;
+    font-size: 6.4px;
+    text-align: center;
+  }
+  .menu .console-card {
+    height: 50px;
+  }
+  .console-card .console {
+    width: 160px;
+    height: 35px;
+    border: 1px solid white;
+    text-align: center;
+  }
+
+  .Article-card .title {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .menu {
+    display: flex;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+  }
+  .menu .console-card {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 360px;
+    height: 45px;
+  }
+  .console-card {
+    height: 45px;
+  }
+  .Article-card .Articlecard-img {
+    margin-top: 10px;
+    width: 266px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid slategray;
+  }
+  .Article-card h1 {
+    font-size: 25px;
+  }
+  .btn-menu {
+    margin: 0px;
+    height: 25px;
+  }
+  .Article-card {
+    background-color: white;
+  }
+  .btn-form {
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    width: 120px;
+  }
+  .ligne {
+    display: inline-block;
+    margin-top: 60px;
+    width: 248px;
+  }
+}

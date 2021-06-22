@@ -1,0 +1,242 @@
+.App-book {
+  display: flex;
+  justify-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.commentary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 5px 5px rgba(131, 131, 131, 0.38);
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.appguest {
+  width: 600px;
+  height: 400px;
+  border: 0, 5rem;
+  border: 2px solid black;
+  overflow: scroll;
+  border-radius: 10px;
+  background-color: rgb(216, 215, 215);
+}
+
+.commentary-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  border: solid 1px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  width: 280px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.commentary-title:hover {
+  color: black;
+  background-color: white;
+}
+
+.bordermessage,
+.bordermessage1 {
+  border-radius: 6px;
+}
+
+.bordermessage {
+  width: 500px;
+  max-width: 900px;
+  border-width: 2px;
+  font-size: 25px;
+  border: solid 2px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.bordermessage1 {
+  width: 500px;
+  height: 100px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  justify-self: start;
+  border: solid 2px;
+  margin-bottom: 15px;
+}
+
+.message {
+  margin-right: 10px;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  background-color: rgb(241, 241, 241);
+  border: 0, 01rem;
+  padding: 6px;
+  border-radius: 8px;
+  background: gainsboro;
+}
+
+.List {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.btn-send {
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  border-radius: 25px;
+  border-width: 2px;
+  cursor: pointer;
+  box-shadow: 0 3px rgb(0, 0, 0);
+  outline: none;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.btn-send:hover {
+  box-shadow: 0 2px rgb(0, 0, 0);
+  transform: translateY(2px);
+}
+
+.btn-send:active {
+  box-shadow: 0 2px rgb(0, 0, 0);
+  transform: translateY(3px);
+}
+
+.btn-sends {
+  display: flex;
+  justify-content: center;
+}
+
+.namemessage {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.commentaire {
+  font-size: 15px;
+}
+
+.messagename,
+.messagecomment {
+  padding-bottom: 4px;
+  font-weight: bold;
+}
+
+.borderbutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.messagename {
+  margin-top: 25px;
+}
+
+@media (max-width: 1032px) {
+  .appguest {
+    width: 508px;
+  }
+}
+
+@media (max-width: 800px) {
+  .appguest {
+    width: 300px;
+    height: 350px;
+  }
+
+  .bordermessage {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 2px;
+    font-size: 12px;
+  }
+
+  .btn-send {
+    width: 80px;
+    font-size: 14px;
+    height: 20px;
+  }
+
+  .bordermessage1 {
+    width: 200px;
+    height: 80px;
+    margin-bottom: 2px;
+    font-size: 12px;
+  }
+
+  .commentary-title {
+    width: 180px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 538px) {
+  .appguest {
+    border: solid 1px black;
+    width: 240px;
+    height: 300px;
+  }
+
+  .messagename {
+    margin-top: 10px;
+  }
+
+  .bordermessage {
+    width: 160px;
+    height: 26px;
+    margin-bottom: 2px;
+    font-size: 12px;
+  }
+
+  .bordermessage1 {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 2px;
+    font-size: 12px;
+  }
+
+  .commentary {
+    width: 280px;
+
+    padding: 25px;
+    background-color: white;
+  }
+
+  .commentary-title {
+    font-size: 14px;
+    width: 210px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .btn-send {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 24px;
+    font-size: 15px;
+  }
+}

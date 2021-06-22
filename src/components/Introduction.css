@@ -1,0 +1,93 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.intro-card {
+  margin-bottom: 40px;
+}
+
+.intro-card .title-intro {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.text-enter {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.feeling h2 {
+  margin: 15px;
+  color: white;
+  padding: 5px;
+}
+
+.feeling {
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  .intro-card {
+    margin-bottom: 10px;
+  }
+
+  .feeling h2 {
+    font-size: 15px;
+  }
+
+  .intro-card h1 {
+    margin-top: 0;
+  }
+
+  .intro-card p {
+    margin-bottom: 0;
+  }
+
+  .intro-card .title-intro {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .intro-card .text-enter {
+    font-size: 12px;
+    margin: 10px 30px 60px 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .feeling h2 {
+    font-size: 14px;
+    margin: 2px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .feeling {
+    width: 251px;
+    padding-top: 15px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-top: 1px solid black;
+  }
+
+  .intro-card .text-enter {
+    margin: 60px 36px 64px 36px;
+    font-size: 16px;
+  }
+
+  .intro-card .title-intro {
+    font-size: 22px;
+  }
+}
