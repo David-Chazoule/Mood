@@ -34,12 +34,12 @@ an explanatory card containing various studies in psychology offers you a Spotif
 
 you have the possibility to leave a comment.
 
---
+---
 
 <img src = "https://imagizer.imageshack.com/img923/963/BxH4jr.png" alt = "contact" width = "350" height = "auto" />
 you can also leave us a message plus the staff.
 
---
+---
 
 <img src = "https://imagizer.imageshack.com/img922/3162/dIjVGv.png" alt = "responsive" width = "350" height = "auto" />
 <img src = "https://imagizer.imageshack.com/img924/9590/uMTXhZ.png" alt = "responsive" width = "350" height = "auto" />
